@@ -1,9 +1,8 @@
 {
   "scripts": {
-    "serve -s build": "node index.js "
-  }
-,
-
+    "postinstall": "npm run build",
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.18.1",
@@ -14,4 +13,3 @@
     "Router": "^2.1.0"
   }
 }
-
