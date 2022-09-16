@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node index.js "
+    "serve -s build": "node index.js "
   }
 ,
 
